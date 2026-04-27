@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nebula Veil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <!-- Top Title Bar -->
+    <div id="title-bar" class="title-bar">
+      <div class="title">Nebula Veil</div>
+      <div class="window-controls">
+        <button id="min-btn" title="Minimize to Tray">-</button>
+        <button id="max-btn" title="Maximize/Restore">□</button>
+        <button id="quit-btn" title="Quit Application">⏻</button>
+        <button id="close-btn" title="Hide to Tray">×</button>
+      </div>
+    </div>
+
+    <div class="main">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="logo">☄︎</div>
+       <nav>
+  <button data-module="notepad" class="nav-btn">
+    <span class="icon">📝</span><span class="label">Notepad</span>
+  </button>
+  <button data-module="calculator" class="nav-btn">
+    <span class="icon">🔢</span><span class="label">Calculator</span>
+  </button>
+  <button data-module="tasks" class="nav-btn">
+    <span class="icon">✅</span><span class="label">Tasks</span>
+  </button>
+  <button data-module="timer" class="nav-btn">
+    <span class="icon">⏳</span><span class="label">Focus Timer</span>
+  </button>
+  <button data-module="calendar" class="nav-btn">
+    <span class="icon">📅</span><span class="label">Calendar</span>
+  </button>
+  <button data-module="system-stats" class="nav-btn">
+    <span class="icon">📊</span><span class="label">System Stats</span>
+  </button>
+  <button data-module="focus-music" class="nav-btn">
+    <span class="icon">🎧</span><span class="label">Focus Music</span>
+  </button>
+  <button id="theme-btn" class="nav-btn">
+    <span class="icon">🎨</span><span class="label">Themes</span>
+  </button>
+  <button id="about-btn" class="nav-btn">
+    <span class="icon">i</span><span class="label">About</span>
+  </button>
+</nav>
+      </div>
+
+      <!-- Content Area -->
+      <div id="content" class="content">
+        <!-- Modules load here via JS -->
+      </div>
+    </div>
+  </div>
+
+    <!-- Theme Picker Modal -->
+    <div id="theme-modal" class="about-modal" style="display: none;">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content theme-modal-content">
+        <div class="modal-header">
+          <h3>🎨 Themes</h3>
+          <button class="modal-close" onclick="closeThemeModal()">×</button>
+        </div>
+        <div class="modal-body">
+          <p class="theme-subtitle">Choose a color theme for Nebula Veil</p>
+          <div class="theme-grid" id="theme-grid"></div>
+        </div>
+        <div class="modal-footer">
+          <button class="modal-btn close" onclick="closeThemeModal()">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Modal -->
+    <div id="about-modal" class="about-modal" style="display: none;">
+      <div class="modal-backdrop"></div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>About Nebula Veil</h3>
+          <button class="modal-close" onclick="closeAboutModal()">×</button>
+        </div>
+        <div class="modal-body">
+          <div class="about-content">
+            <div class="app-logo">Nebula Veil</div>
+            <div class="app-version">Version 1.0.0</div>
+            <p class="app-description">
+              A minimalist productivity suite designed to help you focus, organize, and achieve your goals with elegance and simplicity.
+            </p>
+            <div class="features-grid">
+              <div class="feature-item">
+                <span class="feature-icon">©</span>
+                <span class="feature-text">S-tier Task Management</span>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">©</span>
+                <span class="feature-text">Focus Music & Soundscapes</span>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">©</span>
+                <span class="feature-text">Smart Notifications</span>
+              </div>
+              <div class="feature-item">
+                <span class="feature-icon">©</span>
+                <span class="feature-text">Minimalist Design</span>
+              </div>
+            </div>
+            <div class="credits">
+              <p><strong>Created by:</strong> Ravenforge Creations</p>
+              <p><strong>Technologies:</strong> Electron, Web Audio API, LocalStorage</p>
+              <p><strong> 2026 Ravenforge Creations</strong></p>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button class="modal-btn close" onclick="closeAboutModal()">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Persistent Footer -->
+    <footer class="app-footer">
+      <div class="footer-content">
+        <span class="copyright">©2026 Ravenforge Creations</span>
+      </div>
+    </footer>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
