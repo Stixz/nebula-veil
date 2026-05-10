@@ -1,0 +1,29 @@
+<div class="module notepad">
+  <div class="module-header">
+    <h2>✍️ Veil Notes</h2>
+    <div class="status">Auto-saving • Last saved just now</div>
+  </div>
+  
+  <textarea id="note-text" placeholder="Start typing... Everything you write here feels silky smooth" oncontextmenu="window.showNotesContextMenu && window.showNotesContextMenu(event); return false;"></textarea>
+  
+  <div class="note-footer">
+    <div class="note-meta">
+      <span id="char-count">0 characters</span>
+      <span id="position-label">Pos. 1 : 1</span>
+    </div>
+    <button id="clear-note">Clear All</button>
+  </div>
+
+  <!-- Notes Context Menu -->
+  <div id="notes-context-menu" class="context-menu" style="display: none;">
+    <div class="context-menu-item" onclick="console.log('Create Event clicked'); window.createEventFromNotes && window.createEventFromNotes()" style="color: #a78bfa; font-weight: 500;">+ Create Event</div>
+    <div class="context-menu-item" onclick="window.exportNotes && window.exportNotes()">Export to File</div>
+    <div class="context-menu-item" onclick="window.importNotes && window.importNotes()">Import from File</div>
+    <div class="context-menu-item" onclick="window.clearNotes && window.clearNotes()">Clear Notes</div>
+    <div class="context-menu-item" onclick="window.copyAllNotes && window.copyAllNotes()">Copy All</div>
+    <div class="context-menu-item" onclick="window.pasteNotes && window.pasteNotes()">Paste</div>
+    <div class="context-menu-item" onclick="window.saveNotes && window.saveNotes()">Save Now</div>
+  </div>
+
+  <script src="notepad.js"></script>
+</div>

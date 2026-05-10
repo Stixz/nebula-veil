@@ -1,18 +1,32 @@
-# nebula-veil
-A small atmospheric tool released from the Ravenforge workshop.
+# Nebula Veil
 
-nebula‑veil is an experimental utility — a soft, drifting piece of code meant to inspire, assist, or simply exist as a creative spark.  
-It doesn’t demand anything. It just offers itself.
+Nebula Veil is a compact Electron productivity suite with a soft cosmic shell. It includes notes, tasks, a calendar, a focus timer, system stats, a calculator, and ambient focus audio.
 
-## What It Is
-- A lightweight helper with a cosmic, ambient flavor
-- A tool for mood, exploration, or creative augmentation
-- A quiet experiment made available to the community
+## Getting Started
 
-## Intent
-nebula‑veil is meant to roam.  
-Use it, reshape it, or let it evolve in your own space.
+```bash
+npm install
+npm start
+```
+
+## Scripts
+
+- `npm start` launches the Electron app for local development.
+- `npm run check` validates JavaScript syntax across the app and modules.
+- `npm run build` packages a Windows installer with `electron-builder`.
+
+## Project Layout
+
+- `main.js` owns the Electron window, tray, and native IPC handlers.
+- `preload.js` exposes the safe renderer bridge.
+- `renderer.js` handles navigation, theme state, and module loading.
+- `modules/` contains feature-specific HTML and JavaScript.
+- `style.css` contains the app shell and module styling.
+
+## Notes
+
+User data is currently stored in `localStorage`. That keeps the app lightweight while the feature set is still taking shape, but future work should move durable data into an app data file or small embedded store.
 
 ## License
-CC0 (public domain) — a gift to the community.  
-(Or MIT, if you prefer to keep attribution.)
+
+Released under the MIT License.

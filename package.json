@@ -1,11 +1,42 @@
 {
   "name": "nebula-veil",
   "version": "1.0.0",
+  "description": "A compact atmospheric productivity suite built with Electron.",
   "main": "main.js",
+  "author": "Ravenforge Creations",
+  "license": "MIT",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "check": "node scripts/check-js.js",
+    "build": "electron-builder --publish=never"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Stixz/nebula-veil.git"
+  },
+  "build": {
+    "appId": "com.ravenforge.nebula-veil",
+    "productName": "Nebula Veil",
+    "files": [
+      "index.html",
+      "main.js",
+      "preload.js",
+      "renderer.js",
+      "style.css",
+      "icon.png",
+      "modules/**/*"
+    ],
+    "win": {
+      "target": "nsis",
+      "icon": "icon.png",
+      "signAndEditExecutable": false
+    },
+    "directories": {
+      "output": "dist"
+    }
   },
   "devDependencies": {
-    "electron": "^41.2.1"
+    "electron": "^41.2.1",
+    "electron-builder": "^26.0.12"
   }
 }

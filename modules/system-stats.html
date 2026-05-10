@@ -1,0 +1,53 @@
+<div class="module system-stats">
+  <div class="module-header">
+    <h2>📊 System Stats</h2>
+    <div class="refresh-info">Auto-refreshing every 2s</div>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat-card cpu">
+      <div class="stat-icon">🖥️</div>
+      <div class="stat-label">CPU</div>
+      <div class="stat-value" id="cpu-value">--</div>
+      <div class="stat-bar">
+        <div class="stat-fill" id="cpu-bar"></div>
+      </div>
+    </div>
+
+    <div class="stat-card memory">
+      <div class="stat-icon">🧠</div>
+      <div class="stat-label">Memory</div>
+      <div class="stat-value" id="mem-value">--</div>
+      <div class="stat-bar">
+        <div class="stat-fill" id="mem-bar"></div>
+      </div>
+    </div>
+
+    <div class="stat-card disk">
+      <div class="stat-icon">💾</div>
+      <div class="stat-label">Disk</div>
+      <div class="stat-value" id="disk-value">--</div>
+      <div class="stat-bar">
+        <div class="stat-fill" id="disk-bar"></div>
+      </div>
+    </div>
+
+    <div class="stat-card uptime">
+      <div class="stat-icon">⏱️</div>
+      <div class="stat-label">Uptime</div>
+      <div class="stat-value" id="uptime-value">--</div>
+    </div>
+  </div>
+
+  <div class="processes-section">
+    <h3>Top Processes</h3>
+    <div class="process-list" id="process-list">
+      <div class="process-header">
+        <span>Process</span>
+        <span>CPU</span>
+        <span>Memory</span>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="system-stats.js"></script>

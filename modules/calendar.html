@@ -1,0 +1,86 @@
+<div class="module calendar">
+  <div class="calendar-header">
+    <div class="calendar-nav">
+      <button id="cal-prev" class="cal-btn">←</button>
+      <button id="cal-today" class="cal-btn">Today</button>
+      <button id="cal-next" class="cal-btn">→</button>
+    </div>
+    <h2 id="cal-title" class="cal-title"></h2>
+    <div class="calendar-actions">
+      <button id="cal-new-event" class="cal-btn-primary" onclick="window.openNewModal && window.openNewModal()">+ Event</button>
+      <div class="cal-view-toggle">
+        <button class="cal-view-btn active" data-view="month">Month</button>
+        <button class="cal-view-btn" data-view="week">Week</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="calendar-grid-header">
+    <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+  </div>
+
+  <div id="calendar-days" class="calendar-days"></div>
+
+  <div id="event-modal" class="modal" style="display: none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modal-title">New Event</h3>
+        <button id="modal-close" class="modal-close">×</button>
+      </div>
+      <form id="event-form">
+        <input type="hidden" id="event-id">
+        <div class="form-group">
+          <label>Title</label>
+          <input type="text" id="event-title" placeholder="Event title" required>
+        </div>
+        <div class="form-group">
+          <label>Date</label>
+          <input type="date" id="event-date" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Start Time</label>
+            <input type="time" id="event-start">
+          </div>
+          <div class="form-group">
+            <label>End Time</label>
+            <input type="time" id="event-end">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Location</label>
+          <input type="text" id="event-location" placeholder="Where?">
+        </div>
+        <div class="form-group">
+          <label>Notes</label>
+          <textarea id="event-notes" placeholder="Additional details..." rows="3"></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="button" id="event-delete" class="cal-btn-danger" style="display: none;">Delete</button>
+          <button type="submit" class="cal-btn-primary">Save</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div id="day-detail" class="day-detail" style="display: none;">
+    <div class="day-detail-header">
+      <h3 id="day-detail-title"></h3>
+      <button id="day-detail-close" class="modal-close">×</button>
+    </div>
+    <div id="day-events-list" class="day-events-list"></div>
+  </div>
+
+  <!-- Context Menu for Quick Event Creation -->
+  <div id="context-menu" class="context-menu" style="display: none;">
+    <div class="context-menu-item" id="ctx-new-event">+ New Event</div>
+    <div class="context-menu-item" id="ctx-view-events">View Events</div>
+  </div>
+
+  <!-- Notes Context Menu -->
+  <div id="notes-context-menu" class="context-menu" style="display: none;">
+    <div class="context-menu-item" id="notes-parse-event" onclick="window.createEventFromNotes && window.createEventFromNotes()">Create Event from Notes</div>
+    <div class="context-menu-item" id="notes-clear-fields" onclick="window.clearAllFields && window.clearAllFields()">Clear All Fields</div>
+  </div>
+</div>
+<script src="calendar.js"></script>

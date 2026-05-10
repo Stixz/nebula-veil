@@ -1,0 +1,89 @@
+<div class="module tasks">
+  <div class="module-header">
+    <h2>✅ Task Flow</h2>
+    <div class="header-controls">
+      <div class="search-area">
+        <input type="text" id="task-search" class="task-search" placeholder="Search tasks...">
+      </div>
+      <div class="category-filters">
+        <button class="category-filter active" data-category="all">All</button>
+        <button class="category-filter" data-category="personal">Personal</button>
+        <button class="category-filter" data-category="work">Work</button>
+        <button class="category-filter" data-category="shopping">Shopping</button>
+        <button class="category-filter" data-category="health">Health</button>
+        <button class="category-filter" data-category="other">Other</button>
+      </div>
+      <button id="add-task-btn" class="add-btn">+ New Task</button>
+    </div>
+  </div>
+  
+  <div id="task-list" class="task-list"></div>
+  
+  <!-- Edit Task Modal -->
+  <div id="edit-task-modal" class="edit-modal" style="display: none;">
+    <div class="modal-backdrop"></div>
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Edit Task</h3>
+        <button class="modal-close" onclick="closeEditModal()">×</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label for="edit-task-text">Task</label>
+          <input type="text" id="edit-task-text" placeholder="What needs to be done?" maxlength="80">
+        </div>
+        <div class="form-group">
+          <label for="edit-task-category">Category</label>
+          <select id="edit-task-category" class="task-category">
+            <option value="personal">Personal</option>
+            <option value="work">Work</option>
+            <option value="shopping">Shopping</option>
+            <option value="health">Health</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="edit-task-priority">Priority</label>
+          <select id="edit-task-priority" class="task-priority">
+            <option value="low">Low</option>
+            <option value="medium">Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="edit-task-due-date">Due Date</label>
+          <input type="datetime-local" id="edit-task-due-date" class="task-due-date">
+        </div>
+        <div class="form-group">
+          <label for="edit-task-completed">
+            <input type="checkbox" id="edit-task-completed"> Completed
+          </label>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="modal-btn cancel" onclick="closeEditModal()">Cancel</button>
+        <button class="modal-btn save" onclick="saveTaskEdit()">Save Changes</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="task-input-area">
+    <input type="text" id="new-task-input" placeholder="What needs to be done?" maxlength="80">
+    <select id="task-category" class="task-category">
+      <option value="personal">Personal</option>
+      <option value="work">Work</option>
+      <option value="shopping">Shopping</option>
+      <option value="health">Health</option>
+      <option value="other">Other</option>
+    </select>
+    <select id="task-priority" class="task-priority">
+      <option value="low">Low</option>
+      <option value="medium" selected>Medium</option>
+      <option value="high">High</option>
+    </select>
+    <input type="datetime-local" id="task-due-date" class="task-due-date">
+    <button id="add-task-confirm" class="add-confirm">Add</button>
+  </div>
+    <script src="tasks.js"></script>
+</div>
+</div>

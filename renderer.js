@@ -286,6 +286,8 @@ async function loadModule(moduleName) {
   }
 }
 
+window.loadModule = loadModule;
+
 function initNavigation() {
   const navBtns = document.querySelectorAll('.nav-btn[data-module]');
   

@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+out/
+release/
+
+# Local editor and OS files
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local assistant/tooling state
+.Clairvoyance/
+
+# Runtime artifacts
+logs/
+*.log
+edb.chk
+edb.log
+edbres*.jrs
+edbtmp.log
