@@ -58,7 +58,7 @@
   /*  @label Transform 4px | @desc Auto-extracted from transform in selector .nav-btn:hover.  */
   --font-size-20px: 20px;
   /*  @label Font Size 20px | @desc Auto-extracted from font-size in selector .icon.  */
-  --transition-0-3s: opacity 300ms;
+  --transition-0-3s: opacity 0.3s;
   /*  @label Transition 0 3s | @desc Auto-extracted from transition in selector .label.  */
   --padding-32px: 32px;
   /*  @label Padding 32px | @desc Auto-extracted from padding in selector .content.  */
@@ -100,7 +100,7 @@
   /*  @label Color Color A78bfa 2 | @desc Auto-extracted from color in selector .note-footer button.  */
   --border-radius-8px-2: 8px;
   /*  @label Border Radius 8px 2 | @desc Auto-extracted from border-radius in selector .note-footer button.  */
-  --transition-0-2s: 200ms;
+  --transition-0-2s: 0.2s;
   /*  @label Transition 0 2s | @desc Auto-extracted from transition in selector .note-footer button.  */
   --max-width-380px: 380px;
   /*  @label Max Width 380px | @desc Auto-extracted from max-width in selector .calculator.  */
@@ -170,7 +170,7 @@
   /*  @label Color Color Fff | @desc Auto-extracted from color in selector .task-priority.  */
   --font-size-14px-3: 14px;
   /*  @label Font Size 14px 3 | @desc Auto-extracted from font-size in selector .task-priority.  */
-  --transition-0-2s-2: all 200ms;
+  --transition-0-2s-2: all 0.2s;
   /*  @label Transition 0 2s 2 | @desc Auto-extracted from transition in selector .task-priority.  */
   --border-color-color-a78bfa-2: #a78bfa;
   /*  @label Border Color Color A78bfa 2 | @desc Auto-extracted from border-color in selector .task-priority:focus.  */
@@ -184,7 +184,7 @@
   /*  @label Color Color Fff 3 | @desc Auto-extracted from color in selector .task-due-date.  */
   --font-size-14px-4: 14px;
   /*  @label Font Size 14px 4 | @desc Auto-extracted from font-size in selector .task-due-date.  */
-  --transition-0-2s-3: all 200ms;
+  --transition-0-2s-3: all 0.2s;
   /*  @label Transition 0 2s 3 | @desc Auto-extracted from transition in selector .task-due-date.  */
   --border-color-color-a78bfa-3: #a78bfa;
   /*  @label Border Color Color A78bfa 3 | @desc Auto-extracted from border-color in selector .task-due-date:focus.  */
@@ -216,7 +216,7 @@
   /*  @label Color Color A0a0cc 4 | @desc Auto-extracted from color in selector .category-filter.  */
   --font-size-12px-2: 12px;
   /*  @label Font Size 12px 2 | @desc Auto-extracted from font-size in selector .category-filter.  */
-  --transition-0-2s-4: all 200ms;
+  --transition-0-2s-4: all 0.2s;
   /*  @label Transition 0 2s 4 | @desc Auto-extracted from transition in selector .category-filter.  */
   --color-color-c4b5fd-3: #c4b5fd;
   /*  @label Color Color C4b5fd 3 | @desc Auto-extracted from color in selector .category-filter:hover.  */
@@ -232,7 +232,7 @@
   /*  @label Color Color Fff 4 | @desc Auto-extracted from color in selector .task-category.  */
   --font-size-14px-5: 14px;
   /*  @label Font Size 14px 5 | @desc Auto-extracted from font-size in selector .task-category.  */
-  --transition-0-2s-5: all 200ms;
+  --transition-0-2s-5: all 0.2s;
   /*  @label Transition 0 2s 5 | @desc Auto-extracted from transition in selector .task-category.  */
   --border-color-color-a78bfa-5: #a78bfa;
   /*  @label Border Color Color A78bfa 5 | @desc Auto-extracted from border-color in selector .task-category:focus.  */
@@ -248,7 +248,7 @@
   /*  @label Color Color Fff 6 | @desc Auto-extracted from color in selector .task-search.  */
   --font-size-14px-6: 14px;
   /*  @label Font Size 14px 6 | @desc Auto-extracted from font-size in selector .task-search.  */
-  --transition-0-2s-6: all 200ms;
+  --transition-0-2s-6: all 0.2s;
   /*  @label Transition 0 2s 6 | @desc Auto-extracted from transition in selector .task-search.  */
   --color-color-a0a0cc-5: #a0a0cc;
   /*  @label Color Color A0a0cc 5 | @desc Auto-extracted from color in selector .task-search::placeholder.  */
@@ -300,7 +300,7 @@
   /*  @label Color Color A0a0cc 6 | @desc Auto-extracted from color in selector .mode-btn.  */
   --font-size-14px-7: 14px;
   /*  @label Font Size 14px 7 | @desc Auto-extracted from font-size in selector .mode-btn.  */
-  --transition-0-3s-2: all 300ms;
+  --transition-0-3s-2: all 0.3s;
   /*  @label Transition 0 3s 2 | @desc Auto-extracted from transition in selector .mode-btn.  */
   --background-color-a78bfa-4: #a78bfa;
   /*  @label Background Color A78bfa 4 | @desc Auto-extracted from background in selector .mode-btn.active,
@@ -314,7 +314,7 @@
   /*  @label Border Radius 10px 3 | @desc Auto-extracted from border-radius in selector .modal-btn.  */
   --font-size-14px-8: 14px;
   /*  @label Font Size 14px 8 | @desc Auto-extracted from font-size in selector .modal-btn.  */
-  --transition-0-2s-7: all 200ms;
+  --transition-0-2s-7: all 0.2s;
   /*  @label Transition 0 2s 7 | @desc Auto-extracted from transition in selector .modal-btn.  */
   --color-color-fff-7: #fff;
   /*  @label Color Color Fff 7 | @desc Auto-extracted from color in selector .modal-btn.  */
@@ -370,7 +370,7 @@
   /*  @label Padding 12px | @desc Auto-extracted from padding in selector .feature-item.  */
   --border-radius-8px-4: 8px;
   /*  @label Border Radius 8px 4 | @desc Auto-extracted from border-radius in selector .feature-item.  */
-  --transition-0-2s-8: all 200ms;
+  --transition-0-2s-8: all 0.2s;
   /*  @label Transition 0 2s 8 | @desc Auto-extracted from transition in selector .feature-item.  */
   --transform-neg-2px-3: translateY(-2px);
   /*  @label Transform Neg 2px 3 | @desc Auto-extracted from transform in selector .feature-item:hover.  */
@@ -460,7 +460,7 @@
   /*  @label Font Size 13px 5 | @desc Auto-extracted from font-size in selector .process-item.  */
   --border-radius-8px-5: 8px;
   /*  @label Border Radius 8px 5 | @desc Auto-extracted from border-radius in selector .process-item.  */
-  --transition-0-2s-9: background 200ms;
+  --transition-0-2s-9: background 0.2s;
   /*  @label Transition 0 2s 9 | @desc Auto-extracted from transition in selector .process-item.  */
   --color-color-e0e0ff-6: #e0e0ff;
   /*  @label Color Color E0e0ff 6 | @desc Auto-extracted from color in selector .process-name.  */
@@ -508,7 +508,7 @@
   /*  @label Color Color 0a0a0f 6 | @desc Auto-extracted from color in selector .player-btn.  */
   --font-size-14px-13: 14px;
   /*  @label Font Size 14px 13 | @desc Auto-extracted from font-size in selector .player-btn.  */
-  --transition-0-2s-10: all 200ms;
+  --transition-0-2s-10: all 0.2s;
   /*  @label Transition 0 2s 10 | @desc Auto-extracted from transition in selector .player-btn.  */
   --background-color-c4b5fd: #c4b5fd;
   /*  @label Background Color C4b5fd | @desc Auto-extracted from background in selector .player-btn:hover.  */
@@ -580,7 +580,7 @@
   /*  @label Color Color E0e0ff 9 | @desc Auto-extracted from color in selector .cal-btn.  */
   --font-size-14px-15: 14px;
   /*  @label Font Size 14px 15 | @desc Auto-extracted from font-size in selector .cal-btn.  */
-  --transition-0-2s-11: all 200ms;
+  --transition-0-2s-11: all 0.2s;
   /*  @label Transition 0 2s 11 | @desc Auto-extracted from transition in selector .cal-btn.  */
   --background-color-a78bfa-8: #a78bfa;
   /*  @label Background Color A78bfa 8 | @desc Auto-extracted from background in selector .cal-btn-primary.  */
@@ -590,7 +590,7 @@
   /*  @label Color Color 0a0a0f 7 | @desc Auto-extracted from color in selector .cal-btn-primary.  */
   --font-size-14px-16: 14px;
   /*  @label Font Size 14px 16 | @desc Auto-extracted from font-size in selector .cal-btn-primary.  */
-  --transition-0-2s-12: all 200ms;
+  --transition-0-2s-12: all 0.2s;
   /*  @label Transition 0 2s 12 | @desc Auto-extracted from transition in selector .cal-btn-primary.  */
   --background-color-c4b5fd-2: #c4b5fd;
   /*  @label Background Color C4b5fd 2 | @desc Auto-extracted from background in selector .cal-btn-primary:hover.  */
@@ -608,7 +608,7 @@
   /*  @label Color Color A0a0cc 16 | @desc Auto-extracted from color in selector .cal-view-btn.  */
   --font-size-13px-8: 13px;
   /*  @label Font Size 13px 8 | @desc Auto-extracted from font-size in selector .cal-view-btn.  */
-  --transition-0-2s-13: all 200ms;
+  --transition-0-2s-13: all 0.2s;
   /*  @label Transition 0 2s 13 | @desc Auto-extracted from transition in selector .cal-view-btn.  */
   --background-color-a78bfa-9: #a78bfa;
   /*  @label Background Color A78bfa 9 | @desc Auto-extracted from background in selector .cal-view-btn.active.  */
@@ -632,7 +632,7 @@
   /*  @label Padding 8px 3 | @desc Auto-extracted from padding in selector .cal-day.  */
   --min-height-80px: 80px;
   /*  @label Min Height 80px | @desc Auto-extracted from min-height in selector .cal-day.  */
-  --transition-0-2s-14: all 200ms;
+  --transition-0-2s-14: all 0.2s;
   /*  @label Transition 0 2s 14 | @desc Auto-extracted from transition in selector .cal-day.  */
   --opacity-0-3: 0.3;
   /*  @label Opacity 0 3 | @desc Auto-extracted from opacity in selector .cal-day.other-month.  */
@@ -718,7 +718,7 @@
   /*  @label Border Radius 12px 4 | @desc Auto-extracted from border-radius in selector .day-event-item.  */
   --padding-14px: 14px;
   /*  @label Padding 14px | @desc Auto-extracted from padding in selector .day-event-item.  */
-  --transition-0-2s-15: all 200ms;
+  --transition-0-2s-15: all 0.2s;
   /*  @label Transition 0 2s 15 | @desc Auto-extracted from transition in selector .day-event-item.  */
   --opacity-0-6-2: 0.6;
   /*  @label Opacity 0 6 2 | @desc Auto-extracted from opacity in selector .day-event-item.completed.  */
@@ -761,7 +761,7 @@
   /*  @label Border Radius 12px 5 | @desc Auto-extracted from border-radius in selector .week-day.  */
   --padding-12px-2: 12px;
   /*  @label Padding 12px 2 | @desc Auto-extracted from padding in selector .week-day.  */
-  --transition-0-2s-16: all 200ms;
+  --transition-0-2s-16: all 0.2s;
   /*  @label Transition 0 2s 16 | @desc Auto-extracted from transition in selector .week-day.  */
   --min-height-120px: 120px;
   /*  @label Min Height 120px | @desc Auto-extracted from min-height in selector .week-day.  */
@@ -779,7 +779,7 @@
   /*  @label Gap 4px 2 | @desc Auto-extracted from gap in selector .week-day-events.  */
   --font-size-11px-6: 11px;
   /*  @label Font Size 11px 6 | @desc Auto-extracted from font-size in selector .week-event.  */
-  --transition-0-2s-17: all 200ms;
+  --transition-0-2s-17: all 0.2s;
   /*  @label Transition 0 2s 17 | @desc Auto-extracted from transition in selector .week-event.  */
   --opacity-0-5-2: 0.5;
   /*  @label Opacity 0 5 2 | @desc Auto-extracted from opacity in selector .week-event.completed.  */
@@ -801,7 +801,7 @@
   /*  @label Backdrop Filter 12px 3 | @desc Auto-extracted from backdrop-filter in selector .context-menu.  */
   --border-radius-8px-12: 8px;
   /*  @label Border Radius 8px 12 | @desc Auto-extracted from border-radius in selector .context-menu-item.  */
-  --transition-0-2s-18: all 200ms;
+  --transition-0-2s-18: all 0.2s;
   /*  @label Transition 0 2s 18 | @desc Auto-extracted from transition in selector .context-menu-item.  */
   --font-size-14px-21: 14px;
   /*  @label Font Size 14px 21 | @desc Auto-extracted from font-size in selector .context-menu-item.  */

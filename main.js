@@ -170,9 +170,9 @@ function getSystemStats() {
 function createWindow() {
   mainWindow = new BrowserWindow({
     width: 1100,
-    height: 760,
-    minWidth: 980,
-    minHeight: 640,
+    height: 700,
+    minWidth: 1100,
+    minHeight: 900,
     frame: false,
     transparent: true,
     backgroundColor: '#00000000',
@@ -206,7 +206,7 @@ function createWindow() {
     } else if (mainWindow.isMaximized()) {
       mainWindow.unmaximize();
     } else if (fillsScreen) {
-      mainWindow.setSize(1100, 760);
+      mainWindow.setSize(1100, 700);
       mainWindow.center();
     } else {
       mainWindow.maximize();

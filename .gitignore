@@ -5,6 +5,7 @@ node_modules/
 dist/
 out/
 release/
+build/
 
 # Local editor and OS files
 .vs/
@@ -15,6 +16,7 @@ Thumbs.db
 
 # Local assistant/tooling state
 .Clairvoyance/
+.forge-backups/
 
 # Runtime artifacts
 logs/
@@ -23,3 +25,7 @@ edb.chk
 edb.log
 edbres*.jrs
 edbtmp.log
+
+# Environment
+.env
+.env.*

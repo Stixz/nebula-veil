@@ -1,0 +1,527 @@
+{
+  "schemaVersion": 1,
+  "tool": "Rootkeeper v2",
+  "createdAt": "2026-05-16T12:19:13.841Z",
+  "sourcePath": "D:\\RC Studio\\Coding\\nebula-veil\\style.css",
+  "outputPath": "D:\\RC Studio\\Coding\\nebula-veil\\style.rootkeeper.css",
+  "selectedFixCount": 20,
+  "selectedFixes": [
+    {
+      "id": 1,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-3s\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 3142,
+        "end": 3174,
+        "line": 61,
+        "column": 3,
+        "endLine": 61,
+        "endColumn": 34
+      },
+      "editCount": 1
+    },
+    {
+      "id": 2,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 5843,
+        "end": 5867,
+        "line": 103,
+        "column": 3,
+        "endLine": 103,
+        "endColumn": 26
+      },
+      "editCount": 1
+    },
+    {
+      "id": 3,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-2\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 10440,
+        "end": 10470,
+        "line": 173,
+        "column": 3,
+        "endLine": 173,
+        "endColumn": 32
+      },
+      "editCount": 1
+    },
+    {
+      "id": 4,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-3\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 11383,
+        "end": 11413,
+        "line": 187,
+        "column": 3,
+        "endLine": 187,
+        "endColumn": 32
+      },
+      "editCount": 1
+    },
+    {
+      "id": 5,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-4\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 13510,
+        "end": 13540,
+        "line": 219,
+        "column": 3,
+        "endLine": 219,
+        "endColumn": 32
+      },
+      "editCount": 1
+    },
+    {
+      "id": 6,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-5\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 14649,
+        "end": 14679,
+        "line": 235,
+        "column": 3,
+        "endLine": 235,
+        "endColumn": 32
+      },
+      "editCount": 1
+    },
+    {
+      "id": 7,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-6\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 15718,
+        "end": 15748,
+        "line": 251,
+        "column": 3,
+        "endLine": 251,
+        "endColumn": 32
+      },
+      "editCount": 1
+    },
+    {
+      "id": 8,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-3s-2\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 19150,
+        "end": 19180,
+        "line": 303,
+        "column": 3,
+        "endLine": 303,
+        "endColumn": 32
+      },
+      "editCount": 1
+    },
+    {
+      "id": 9,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-7\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 19978,
+        "end": 20008,
+        "line": 317,
+        "column": 3,
+        "endLine": 317,
+        "endColumn": 32
+      },
+      "editCount": 1
+    },
+    {
+      "id": 10,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-8\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 23759,
+        "end": 23789,
+        "line": 373,
+        "column": 3,
+        "endLine": 373,
+        "endColumn": 32
+      },
+      "editCount": 1
+    },
+    {
+      "id": 11,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-9\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 29683,
+        "end": 29720,
+        "line": 463,
+        "column": 3,
+        "endLine": 463,
+        "endColumn": 39
+      },
+      "editCount": 1
+    },
+    {
+      "id": 12,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-10\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 32857,
+        "end": 32888,
+        "line": 511,
+        "column": 3,
+        "endLine": 511,
+        "endColumn": 33
+      },
+      "editCount": 1
+    },
+    {
+      "id": 13,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-11\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 37632,
+        "end": 37663,
+        "line": 583,
+        "column": 3,
+        "endLine": 583,
+        "endColumn": 33
+      },
+      "editCount": 1
+    },
+    {
+      "id": 14,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-12\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 38323,
+        "end": 38354,
+        "line": 593,
+        "column": 3,
+        "endLine": 593,
+        "endColumn": 33
+      },
+      "editCount": 1
+    },
+    {
+      "id": 15,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-13\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 39591,
+        "end": 39622,
+        "line": 611,
+        "column": 3,
+        "endLine": 611,
+        "endColumn": 33
+      },
+      "editCount": 1
+    },
+    {
+      "id": 16,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-14\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 41207,
+        "end": 41238,
+        "line": 635,
+        "column": 3,
+        "endLine": 635,
+        "endColumn": 33
+      },
+      "editCount": 1
+    },
+    {
+      "id": 17,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-15\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 46664,
+        "end": 46695,
+        "line": 721,
+        "column": 3,
+        "endLine": 721,
+        "endColumn": 33
+      },
+      "editCount": 1
+    },
+    {
+      "id": 18,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-16\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 49309,
+        "end": 49340,
+        "line": 764,
+        "column": 3,
+        "endLine": 764,
+        "endColumn": 33
+      },
+      "editCount": 1
+    },
+    {
+      "id": 19,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-17\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 50478,
+        "end": 50509,
+        "line": 782,
+        "column": 3,
+        "endLine": 782,
+        "endColumn": 33
+      },
+      "editCount": 1
+    },
+    {
+      "id": 20,
+      "rule": "time-ms-only",
+      "severity": "warning",
+      "category": "review",
+      "safe": false,
+      "description": "Use ms instead of seconds in \"--transition-0-2s-18\" for selector \":root\".",
+      "reason": "Converts duration values only inside the declaration value; custom property names are left untouched.",
+      "target": {
+        "start": 51916,
+        "end": 51947,
+        "line": 804,
+        "column": 3,
+        "endLine": 804,
+        "endColumn": 33
+      },
+      "editCount": 1
+    }
+  ],
+  "bytesWritten": 148742,
+  "verification": {
+    "passed": true,
+    "before": {
+      "counts": {
+        "error": 0,
+        "warning": 20,
+        "info": 314
+      },
+      "parseErrors": 0,
+      "actionable": 20,
+      "total": 334
+    },
+    "after": {
+      "counts": {
+        "error": 0,
+        "warning": 0,
+        "info": 314
+      },
+      "parseErrors": 0,
+      "actionable": 0,
+      "total": 314
+    },
+    "selected": {
+      "total": 20,
+      "resolved": 20,
+      "stillPresent": 0
+    },
+    "fixed": [
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-10\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-11\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-12\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-13\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-14\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-15\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-16\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-17\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-18\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-2\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-3\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-4\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-5\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-6\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-7\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-8\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s-9\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-2s\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-3s-2\" for selector \":root\".",
+        "count": 1
+      },
+      {
+        "severity": "warning",
+        "rule": "time-ms-only",
+        "message": "Use ms instead of seconds in \"--transition-0-3s\" for selector \":root\".",
+        "count": 1
+      }
+    ],
+    "added": [],
+    "fixedCount": 20,
+    "newCount": 0,
+    "newErrorCount": 0
+  },
+  "verificationReport": "Verification\n============\nStatus: PASS\nParse errors: 0\nBefore: Errors 0 | Warnings 20 | Advisory 314\nAfter: Errors 0 | Warnings 0 | Advisory 314\nSelected resolved: 20 of 20\nFixed findings: 20\nNew findings: 0\nNew errors: 0",
+  "previewReport": "Patch Preview\n=============\nSelected fixes: 20\n\n#1 [review] time-ms-only (line 61:3)\nUse ms instead of seconds in \"--transition-0-3s\" for selector \":root\".\n  - opacity 0.3s\n  + opacity 300ms\n\n#2 [review] time-ms-only (line 103:3)\nUse ms instead of seconds in \"--transition-0-2s\" for selector \":root\".\n  - 0.2s\n  + 200ms\n\n#3 [review] time-ms-only (line 173:3)\nUse ms instead of seconds in \"--transition-0-2s-2\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#4 [review] time-ms-only (line 187:3)\nUse ms instead of seconds in \"--transition-0-2s-3\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#5 [review] time-ms-only (line 219:3)\nUse ms instead of seconds in \"--transition-0-2s-4\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#6 [review] time-ms-only (line 235:3)\nUse ms instead of seconds in \"--transition-0-2s-5\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#7 [review] time-ms-only (line 251:3)\nUse ms instead of seconds in \"--transition-0-2s-6\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#8 [review] time-ms-only (line 303:3)\nUse ms instead of seconds in \"--transition-0-3s-2\" for selector \":root\".\n  - all 0.3s\n  + all 300ms\n\n#9 [review] time-ms-only (line 317:3)\nUse ms instead of seconds in \"--transition-0-2s-7\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#10 [review] time-ms-only (line 373:3)\nUse ms instead of seconds in \"--transition-0-2s-8\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#11 [review] time-ms-only (line 463:3)\nUse ms instead of seconds in \"--transition-0-2s-9\" for selector \":root\".\n  - background 0.2s\n  + background 200ms\n\n#12 [review] time-ms-only (line 511:3)\nUse ms instead of seconds in \"--transition-0-2s-10\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#13 [review] time-ms-only (line 583:3)\nUse ms instead of seconds in \"--transition-0-2s-11\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#14 [review] time-ms-only (line 593:3)\nUse ms instead of seconds in \"--transition-0-2s-12\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#15 [review] time-ms-only (line 611:3)\nUse ms instead of seconds in \"--transition-0-2s-13\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#16 [review] time-ms-only (line 635:3)\nUse ms instead of seconds in \"--transition-0-2s-14\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#17 [review] time-ms-only (line 721:3)\nUse ms instead of seconds in \"--transition-0-2s-15\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#18 [review] time-ms-only (line 764:3)\nUse ms instead of seconds in \"--transition-0-2s-16\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#19 [review] time-ms-only (line 782:3)\nUse ms instead of seconds in \"--transition-0-2s-17\" for selector \":root\".\n  - all 0.2s\n  + all 200ms\n\n#20 [review] time-ms-only (line 804:3)\nUse ms instead of seconds in \"--transition-0-2s-18\" for selector \":root\".\n  - all 0.2s\n  + all 200ms"
+}
